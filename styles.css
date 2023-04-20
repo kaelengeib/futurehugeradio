@@ -1,0 +1,80 @@
+@font-face{
+    font-family: MyFont;
+    src:url(fonts/Fronto-Regular.ttf);
+}
+
+@font-face {
+    font-family: MyOtherFont;
+    src: url(fonts/Arcade.ttf);
+}
+
+h1{
+    font-family: MyFont;
+    text-align: center;
+    
+}
+
+.bar{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar button{
+    margin: 10px;
+    padding: 5px
+}
+
+button{
+    font-family: MyFont;
+}
+
+.mirage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video_Embedder{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.shopheading{
+    font-family: MyFont;
+}
+
+.shopheading h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+.aboutbox{
+    display: flex;
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+    background-color: blue;
+}
+.aboutbox h4{
+    font-family: MyOtherFont;
+    font-size: larger;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+
+.contactform{
+    display: flex;
+    justify-content: center;
+    font-family: MyOtherFont;
+}
+.contactform h2{
+    font-family: MyFont;
+    text-align: center;
+}
